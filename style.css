@@ -150,15 +150,15 @@ body {
 .tagline {
   font-weight: 300;
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.9);
+  color: #ffffff;
   letter-spacing: 1px;
   margin-top: 28px;
 }
 
 .description {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   letter-spacing: 0.5px;
   line-height: 1.7;
   max-width: 480px;
@@ -166,9 +166,9 @@ body {
 }
 
 .credentials {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
   letter-spacing: 0.5px;
   line-height: 1.6;
   max-width: 480px;
@@ -180,17 +180,17 @@ body {
 }
 
 .location {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
   letter-spacing: 0.5px;
   margin-top: 6px;
 }
 
 .email-link {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12px;
-  color: rgba(80, 150, 210, 1);
+  color: rgba(100, 170, 230, 1);
   letter-spacing: 0.5px;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -198,7 +198,7 @@ body {
 }
 
 .email-link:hover {
-  color: rgba(120, 180, 230, 1);
+  color: rgba(140, 195, 240, 1);
 }
 
 /* Responsive - Mobile */
