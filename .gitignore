@@ -1,0 +1,18 @@
+.DS_Store
+.claude/
+
+# Old assets still on disk
+170829_3570_linkedin016.JPG
+photo.jpg
+og-image.png
+favicon.ico
+favicon-16x16.png
+favicon-32x32.png
+apple-touch-icon.png
+landing-en.md
+landing-es.md
+llms.txt
+robots.txt
+sitemap.xml
+prompt-claude-code.md
+prompt-claude-code-stealth.md
