@@ -1,0 +1,17 @@
+# ExoMinds
+
+> AI that amplifies human cognition.
+
+ExoMinds is a cognitive AI research lab based in Barcelona, Spain. We research how AI changes the way people think, and we build technology that keeps humans in control.
+
+## Research
+
+- Affiliated with Tufts University
+- Research accepted by the Computer-Human Interaction (CHI) committee at the Association for Computing Machinery (ACM)
+- Focus areas: cognitive AI, human-AI interaction, AI-augmented thinking
+
+## Contact
+
+- Email: info@exominds.ai
+- Location: Barcelona, Spain
+- Website: https://exominds.ai

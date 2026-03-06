@@ -13,6 +13,12 @@
   <meta property="og:description" content="AI that amplifies human cognition.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://exominds.ai/">
+  <meta property="og:image" content="https://exominds.ai/og-image.svg">
+  <meta property="og:locale" content="en">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ExoMinds - Cognitive AI Research">
+  <meta name="twitter:description" content="AI that amplifies human cognition. Research lab based in Barcelona.">
+  <meta name="twitter:image" content="https://exominds.ai/og-image.svg">
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%232d6a9f'/%3E%3C/svg%3E">
   <!-- Fonts -->
@@ -24,15 +30,25 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "ResearchOrganization",
     "name": "ExoMinds",
     "url": "https://exominds.ai",
-    "description": "AI that amplifies human cognition. Cognitive AI research lab based in Barcelona.",
+    "description": "AI that amplifies human cognition. Cognitive AI research lab based in Barcelona. Researching how AI changes the way people think, building technology that keeps humans in control.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Barcelona",
       "addressCountry": "ES"
-    }
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "info@exominds.ai",
+      "contactType": "general"
+    },
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "Tufts University"
+    },
+    "keywords": ["cognitive AI", "human-AI interaction", "AI research", "human cognition", "ACM CHI"]
   }
   </script>
 </head>
@@ -44,13 +60,22 @@
 
   <main class="content">
     <h1 class="name" style="--delay: 0.5s">ExoMinds</h1>
-    <p class="tagline" style="--delay: 1.2s">AI that amplifies human cognition.</p>
-    <p class="description" style="--delay: 1.9s">We research how AI changes the way people think, and we build technology that keeps humans in control.</p>
-    <p class="credentials" style="--delay: 2.5s">Affiliated with Tufts University. Research accepted by the Computer-Human Interaction committee at the Association for Computing Machinery (ACM).</p>
-    <div class="contact" style="--delay: 3.0s">
-      <p><a href="mailto:info@exominds.ai" class="email-link">info@exominds.ai</a></p>
-      <p class="location">Barcelona, Spain.</p>
-    </div>
+    <section>
+      <h2 class="sr-only">Research</h2>
+      <p class="tagline" style="--delay: 1.2s">AI that amplifies human cognition.</p>
+      <p class="description" style="--delay: 1.9s">We research how AI changes the way people think, and we build technology that keeps humans in control.</p>
+    </section>
+    <section>
+      <h2 class="sr-only">Affiliations</h2>
+      <p class="credentials" style="--delay: 2.5s">Affiliated with Tufts University. Research accepted by the Computer-Human Interaction committee at the Association for Computing Machinery (ACM).</p>
+    </section>
+    <section>
+      <h2 class="sr-only">Contact</h2>
+      <div class="contact" style="--delay: 3.0s">
+        <p><a href="mailto:info@exominds.ai" class="email-link">info@exominds.ai</a></p>
+        <p class="location">Barcelona, Spain.</p>
+      </div>
+    </section>
   </main>
 </body>
 </html>

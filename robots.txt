@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://exominds.ai/sitemap.xml
